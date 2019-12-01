@@ -18,4 +18,4 @@ Remember to have baeutiful day regardless of the weather!
 ![Mobile version](github/mobile.png)
 
 - custom console.log message
-- demo here: https://github.com/OrianaKJ/weather
+- demo here: https://orianakj.github.io/weather/

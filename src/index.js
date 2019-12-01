@@ -23,7 +23,7 @@ function showError(error) {
 }
 
 function showCurrentWeather(latitude, longitude) {
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${key}`;
 
     fetch(api)
         .then(response => response.json())
@@ -43,7 +43,7 @@ function showCurrentWeatherByCityName() {
 }
 
 function showForecast(latitude, longitude) {
-    let api = `http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${key}`;
 
     fetch(api)
         .then(response => response.json())
@@ -61,7 +61,7 @@ function showForecast(latitude, longitude) {
 }
 
 function showForecastByCityName() {
-    let api = `http://api.openweathermap.org/data/2.5/forecast?q=${city.value}&units=metric&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/forecast?q=${city.value}&units=metric&appid=${key}`;
 
     fetch(api)
         .then(response => response.json())

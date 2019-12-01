@@ -71,3 +71,19 @@ html {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   height: 400px;
 }
+
+@media screen and (max-width: 673px) {
+  .dayCards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .weatherBoard, .dayCards {
+    display: block;
+  }
+  .weatherBoard__additionalWeatherInfo {
+    display: none;
+  }
+}

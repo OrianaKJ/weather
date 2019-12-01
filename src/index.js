@@ -1,3 +1,4 @@
+console.log('Nice to see you here. Have a nice day with beautiful weather');
 const weatherCard = document.querySelector('.weatherBoard__actualWeather')
 const key = "0b6964d993c0bc85cfdae89465941f41";
 const button = document.querySelector('.buttons__search');
@@ -82,7 +83,7 @@ function displayWeather(weather, weatherContainer, today) {
     weatherContainer.innerHTML =
         `<p>${weather.day}</p>
         <h1> ${weather.name}</h1>
-        <p><img src="../src/img/${weather.icon}.png"</p>
+        <p><img src="./src/img/${weather.icon}.png"</p>
         <p>${weather.description}</p>
             <p>min ${weather.tempMin} &#8451; / max ${weather.tempMax} &#8451;</p >
             <p>Humidity: ${weather.humidity} %</p>

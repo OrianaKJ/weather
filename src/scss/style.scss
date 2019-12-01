@@ -70,6 +70,9 @@ html {
   height: 400px;
 }
 @media screen and (max-width: 673px) {
+  html {
+    background: url('https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')no-repeat center center fixed;
+  }
   .dayCards {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 400px;
@@ -77,6 +80,9 @@ html {
 }
 
 @media screen and (max-width: 468px) {
+  html {
+    background: url('https://images.unsplash.com/photo-1498354136128-58f790194fa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')no-repeat center center fixed;
+  }
   .weatherBoard, .dayCards {
     display:block;
   }
